@@ -1,0 +1,25 @@
+{
+  "peeps": [
+    {
+      "_id":1,
+      "author": "test1",
+      "title": "First Peep",
+      "message": "Hello From First Peep",
+      "date": "2016-05-18T16:00:00Z"
+    },
+    {
+      "_id":2,
+      "author": "test2",
+      "title": "Second Peep",
+      "message": "Hello From Second Peep",
+      "date": "2016-05-18T16:00:00Z"
+    },
+   {
+      "_id":3,
+      "author": "test3",
+      "title": "Third Peep",
+      "message": "Hello From Third Peep",
+      "date": "2016-05-18T16:00:00Z"
+    }
+  ]
+}
