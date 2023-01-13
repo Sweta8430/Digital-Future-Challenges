@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(218, 118, 118);
+    padding: 15px;
+    color: black;
+    text-align: center;
+}
+
+header p {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+footer {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(218, 118, 118);
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.allnews{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top:40px;
+    text-align: center;
+    width : 65%;
+    color:black;
+}
+.headlines{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.images{
+    width:75%;
+    height:auto;
+}
+.link{
+    margin-bottom: 40px;
+    text-align: center;
+    width: 65%;
+    color: black;
+}
+.summary{
+    Padding-top:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15;
+    color: black;
+    border:black 1px;
+    text-align: justify;
+    display: inline-block;
+}
+.goback {
+    margin-top:20px;
+    background-color: grey;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight:bold;
+    font-family:'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif
+}

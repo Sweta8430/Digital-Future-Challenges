@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Game Choice</title>
+  </head>
+  <body>
+    <form action="/result" method="post">
+      <div class="card text-center">
+        <div class="card-header">
+          <h1 class="card-title text-primary">
+            Welcome <%=name%> Lets Play Rock Paper Scissor !!
+          </h1>
+        </div>
+
+        <div class="card-body">
+          <h4 class="card-title">Please Choose One Option</h4>
+          <br />
+          <input type="radio" name="rps" id="rock" value="rock" required />
+          <b>Rock</b> &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="rps" id="paper" value="paper" required />
+          <b>Paper</b>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input
+            type="radio"
+            name="rps"
+            id="scissor"
+            value="scissor"
+            required
+          />
+          <b>Scissor</b> <br />
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3" id="gamebtn">
+            PLAY
+          </button>
+        </div>
+        <div class="card-footer text-muted">@DFX Games</div>
+      </div>
+    </form>
+  </body>
+</html>
